@@ -1,5 +1,34 @@
 <nav>
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/settings">Settings</a>
+
+    <ul>
+        <li><a href="/">About Me</a></li>
+        <li><a href="/personal">Personal Projects</a></li>
+        <li><a href="/ceotr">CEOTR Projects</a></li>
+        <li><a href="/gamejam">Game Jam Projects</a></li>
+        <li><a href="/other">Other Projects</a></li>
+    </ul>
+
 </nav>
+
+<style>
+
+    ul {
+        margin: 2rem auto 3rem;
+        width: 800px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        color: gray;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+
+    }
+    a:hover {
+        color: aqua;
+    }
+
+</style>
