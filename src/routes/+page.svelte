@@ -1,6 +1,12 @@
+<script>
+    import profile from "$lib/assets/profile.jpg"
+</script>
+
 <div>
     <h1>About Me</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo hendrerit ipsum, ac porttitor ex
+    <div class="text">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo hendrerit ipsum, ac porttitor ex
         fermentum pharetra. Phasellus lobortis aliquam mauris. Quisque at interdum magna, sit amet mattis magna. Etiam
         vel erat cursus, efficitur libero eget, vehicula arcu. Curabitur in nulla eleifend, placerat tortor vel, tempor
         velit. Quisque mauris turpis, porttitor nec neque a, tempor suscipit dolor. Praesent laoreet est sed quam
@@ -18,7 +24,34 @@
         erat volutpat. Nulla facilisi. Donec aliquet, libero nec venenatis sodales, est odio dapibus ex, sit amet
         fringilla elit ipsum ac ipsum. Donec feugiat facilisis posuere. Vivamus malesuada augue quis urna viverra, eget
         ullamcorper nunc condimentum. Aenean porttitor id tellus a rhoncus. Sed lacinia tincidunt nisl ac tempor.
-    </p>
+        </p>
+    </div>
+    <div class="profile">
+        <img class="profile-img" src="{profile}" alt="profile img"/>
+    </div>
+
 </div>
+
+<style>
+    .text {
+        display: inline-block;
+        width: 70%;
+        height: 20rem;
+    }
+
+    .profile {
+        display: inline-block;
+        float: right;
+        width: 20%;
+        height: 20rem;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .profile-img {
+        width: 100%;
+        height: auto;
+    }
+</style>
 
 

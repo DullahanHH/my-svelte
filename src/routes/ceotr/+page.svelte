@@ -1,5 +1,9 @@
 <script>
     import ProjectCard from "$lib/ProjectCard.svelte";
+
+    import gliders from "$lib/assets/gliders.png";
+    import c6 from "$lib/assets/c6.png";
+    import website from "$lib/assets/website.png";
 </script>
 
 <div>
@@ -7,7 +11,7 @@
 
     <ProjectCard
             title="Glider Website"
-            img=""
+            imgSet={[gliders,c6,website]}
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo hendrerit ipsum, ac porttitor ex
         fermentum pharetra. Phasellus lobortis aliquam mauris. Quisque at interdum magna, sit amet mattis magna. Etiam
         vel erat cursus, efficitur libero eget, vehicula arcu. Curabitur in nulla eleifend, placerat tortor vel, tempor
@@ -17,7 +21,7 @@
 
     <ProjectCard
             title="C6 to CSV Converter"
-            img=""
+            imgSet=""
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo hendrerit ipsum, ac porttitor ex
         fermentum pharetra. Phasellus lobortis aliquam mauris. Quisque at interdum magna, sit amet mattis magna. Etiam
         vel erat cursus, efficitur libero eget, vehicula arcu. Curabitur in nulla eleifend, placerat tortor vel, tempor
@@ -27,7 +31,7 @@
 
     <ProjectCard
             title="MAPEL Website"
-            img=""
+            imgSet=""
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo hendrerit ipsum, ac porttitor ex
         fermentum pharetra. Phasellus lobortis aliquam mauris. Quisque at interdum magna, sit amet mattis magna. Etiam
         vel erat cursus, efficitur libero eget, vehicula arcu. Curabitur in nulla eleifend, placerat tortor vel, tempor
