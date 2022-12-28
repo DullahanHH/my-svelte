@@ -68,6 +68,8 @@
         vertical-align: middle;
         margin: auto;
         width: 80%;
+        max-width: 60rem;
+        max-height: 30rem;
     }
 
     .btn {
