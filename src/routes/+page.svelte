@@ -6,25 +6,22 @@
     <h1>About Me</h1>
     <div class="text">
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo hendrerit ipsum, ac porttitor ex
-        fermentum pharetra. Phasellus lobortis aliquam mauris. Quisque at interdum magna, sit amet mattis magna. Etiam
-        vel erat cursus, efficitur libero eget, vehicula arcu. Curabitur in nulla eleifend, placerat tortor vel, tempor
-        velit. Quisque mauris turpis, porttitor nec neque a, tempor suscipit dolor. Praesent laoreet est sed quam
-        rhoncus, quis suscipit nunc lobortis.
-
-        Vivamus accumsan nibh at mauris aliquet, a feugiat nunc bibendum. Maecenas congue maximus blandit. Aliquam erat
-        volutpat. Quisque augue felis, vehicula eu magna et, pretium scelerisque mauris. Morbi sed dapibus erat, at
-        gravida tellus. Quisque in nisl tempus mauris ullamcorper faucibus. Aliquam erat volutpat. In vel dictum turpis,
-        quis iaculis dolor. Aenean molestie faucibus finibus. Suspendisse eu hendrerit risus, vel auctor lacus. Quisque
-        sagittis semper aliquam.
-
-        Nam euismod justo elementum, vehicula eros ut, consequat libero. Donec sem dolor, porttitor nec augue ac,
-        ultrices tempor dolor. Fusce euismod sem ut consectetur faucibus. Pellentesque ac convallis odio. Morbi eget
-        ipsum posuere, auctor ligula in, semper leo. Aliquam facilisis dui arcu, at tempus mauris luctus vel. Aliquam
-        erat volutpat. Nulla facilisi. Donec aliquet, libero nec venenatis sodales, est odio dapibus ex, sit amet
-        fringilla elit ipsum ac ipsum. Donec feugiat facilisis posuere. Vivamus malesuada augue quis urna viverra, eget
-        ullamcorper nunc condimentum. Aenean porttitor id tellus a rhoncus. Sed lacinia tincidunt nisl ac tempor.
+            My name is Jianchun Zhou and I am currently studying in Dalhousie as a third year student in the Department
+            of Computer Science.
         </p>
+        <p>
+            From July 2021 to December 2022, I participated in the Co-op project and took the position of software
+            development in the data department of CEOTR (Coastal Environmental Observation Technology and Research).
+            During my tenure, I participated in the development of several website projects and gradually became
+            familiar with the development mode in the workplace.
+        </p>
+        <p>
+            In my spare time, I'm also interested in video games. It's not just about playing games, it's more about
+            developing games. In game development, I know a thing or two about programming, art, and sound effects. I
+            have done many demos of 2D games and participated in many Game Jams. With the help of demos and Game Jam, I
+            continue to accumulate experience in game development and the ability to work in a team.
+        </p>
+
     </div>
     <div class="profile">
         <img class="profile-img" src="{profile}" alt="profile img"/>
@@ -51,6 +48,10 @@
     .profile-img {
         width: 100%;
         height: auto;
+    }
+
+    p {
+        font-size: 120%;
     }
 </style>
 
