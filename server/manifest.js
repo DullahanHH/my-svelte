@@ -1,6 +1,6 @@
 const manifest = {
 	appDir: "_app",
-	appPath: "my-svelte/_app",
+	appPath: "_app",
 	assets: new Set(["favicon.png","global.css"]),
 	mimeTypes: {".png":"image/png",".css":"text/css"},
 	_: {
