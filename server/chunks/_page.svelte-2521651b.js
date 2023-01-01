@@ -1,13 +1,13 @@
 import { c as create_ssr_component, v as validate_component } from './index-5c0598d4.js';
 import { P as ProjectCard } from './ProjectCard-5ffedf67.js';
 
-const space = "/_app/immutable/assets/space-c407e2aa.png";
-const space1 = "/_app/immutable/assets/space-1-1ac0aa1d.png";
-const space2 = "/_app/immutable/assets/space-2-d1c5ad9f.png";
-const space3 = "/_app/immutable/assets/space-3-0e2de0ce.png";
-const space4 = "/_app/immutable/assets/space-4-b59611c3.png";
-const portfolio = "/_app/immutable/assets/this-18aa77ac.png";
-const portfolio1 = "/_app/immutable/assets/this-1-b743eed9.png";
+const space = "/my-svelte/_app/immutable/assets/space-c407e2aa.png";
+const space1 = "/my-svelte/_app/immutable/assets/space-1-1ac0aa1d.png";
+const space2 = "/my-svelte/_app/immutable/assets/space-2-d1c5ad9f.png";
+const space3 = "/my-svelte/_app/immutable/assets/space-3-0e2de0ce.png";
+const space4 = "/my-svelte/_app/immutable/assets/space-4-b59611c3.png";
+const portfolio = "/my-svelte/_app/immutable/assets/this-18aa77ac.png";
+const portfolio1 = "/my-svelte/_app/immutable/assets/this-1-b743eed9.png";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div><h1>Personal Projects</h1>
 
@@ -35,4 +35,4 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 
 export { Page as default };
-//# sourceMappingURL=_page.svelte-c54cb467.js.map
+//# sourceMappingURL=_page.svelte-2521651b.js.map

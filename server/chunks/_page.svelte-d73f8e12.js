@@ -1,17 +1,17 @@
 import { c as create_ssr_component, v as validate_component } from './index-5c0598d4.js';
 import { P as ProjectCard } from './ProjectCard-5ffedf67.js';
 
-const gliders = "/_app/immutable/assets/gliders-6344134f.png";
-const gliders1 = "/_app/immutable/assets/gliders-1-3f916c22.png";
-const gliders2 = "/_app/immutable/assets/gliders-2-42c65d21.png";
-const gliders3 = "/_app/immutable/assets/gliders-3-7fdc1cfe.png";
-const gliders4 = "/_app/immutable/assets/gliders-4-96f280af.png";
-const c6 = "/_app/immutable/assets/c6-8dbe6b7d.png";
-const c61 = "/_app/immutable/assets/c6-1-c1e018c3.png";
-const web = "/_app/immutable/assets/web-ea2c7292.png";
-const web1 = "/_app/immutable/assets/web-1-0f0676c7.png";
-const web2 = "/_app/immutable/assets/web-2-1ad6f723.png";
-const web3 = "/_app/immutable/assets/web-3-8a0ffb47.png";
+const gliders = "/my-svelte/_app/immutable/assets/gliders-6344134f.png";
+const gliders1 = "/my-svelte/_app/immutable/assets/gliders-1-3f916c22.png";
+const gliders2 = "/my-svelte/_app/immutable/assets/gliders-2-42c65d21.png";
+const gliders3 = "/my-svelte/_app/immutable/assets/gliders-3-7fdc1cfe.png";
+const gliders4 = "/my-svelte/_app/immutable/assets/gliders-4-96f280af.png";
+const c6 = "/my-svelte/_app/immutable/assets/c6-8dbe6b7d.png";
+const c61 = "/my-svelte/_app/immutable/assets/c6-1-c1e018c3.png";
+const web = "/my-svelte/_app/immutable/assets/web-ea2c7292.png";
+const web1 = "/my-svelte/_app/immutable/assets/web-1-0f0676c7.png";
+const web2 = "/my-svelte/_app/immutable/assets/web-2-1ad6f723.png";
+const web3 = "/my-svelte/_app/immutable/assets/web-3-8a0ffb47.png";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div><h1>CEOTR Projects</h1>
 
@@ -50,4 +50,4 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 
 export { Page as default };
-//# sourceMappingURL=_page.svelte-505b108e.js.map
+//# sourceMappingURL=_page.svelte-d73f8e12.js.map

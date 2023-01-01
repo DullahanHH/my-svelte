@@ -1,6 +1,6 @@
 const manifest = {
 	appDir: "_app",
-	appPath: "_app",
+	appPath: "my-svelte/_app",
 	assets: new Set(["favicon.png","global.css"]),
 	mimeTypes: {".png":"image/png",".css":"text/css"},
 	_: {
@@ -8,11 +8,11 @@ const manifest = {
 		nodes: [
 			() => import('./chunks/0-ae3d2d36.js'),
 			() => import('./chunks/1-5115d4c7.js'),
-			() => import('./chunks/2-2e4fe8f2.js'),
-			() => import('./chunks/3-9b38508a.js'),
-			() => import('./chunks/4-931c3339.js'),
-			() => import('./chunks/5-9ea1c5b7.js'),
-			() => import('./chunks/6-01805a38.js')
+			() => import('./chunks/2-c958fa6a.js'),
+			() => import('./chunks/3-8213024f.js'),
+			() => import('./chunks/4-70a455f3.js'),
+			() => import('./chunks/5-fd2c65b6.js'),
+			() => import('./chunks/6-f7ca6e0a.js')
 		],
 		routes: [
 			{

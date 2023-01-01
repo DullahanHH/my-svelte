@@ -1,15 +1,15 @@
 import { c as create_ssr_component, v as validate_component } from './index-5c0598d4.js';
 import { P as ProjectCard } from './ProjectCard-5ffedf67.js';
 
-const sheep = "/_app/immutable/assets/sheep-6a5e80d7.png";
-const sheep1 = "/_app/immutable/assets/sheep-1-ce7ada2e.png";
-const sheep2 = "/_app/immutable/assets/sheep-2-ecb90373.png";
-const sheep3 = "/_app/immutable/assets/sheep-3-4fb9b9a3.png";
-const loop = "/_app/immutable/assets/loop-bddf1f3c.png";
-const loop1 = "/_app/immutable/assets/loop-1-bda61a40.png";
-const loop2 = "/_app/immutable/assets/loop-2-bfb15240.png";
-const loop3 = "/_app/immutable/assets/loop-3-c47c9b0b.png";
-const loop4 = "/_app/immutable/assets/loop-4-6c5f0362.png";
+const sheep = "/my-svelte/_app/immutable/assets/sheep-6a5e80d7.png";
+const sheep1 = "/my-svelte/_app/immutable/assets/sheep-1-ce7ada2e.png";
+const sheep2 = "/my-svelte/_app/immutable/assets/sheep-2-ecb90373.png";
+const sheep3 = "/my-svelte/_app/immutable/assets/sheep-3-4fb9b9a3.png";
+const loop = "/my-svelte/_app/immutable/assets/loop-bddf1f3c.png";
+const loop1 = "/my-svelte/_app/immutable/assets/loop-1-bda61a40.png";
+const loop2 = "/my-svelte/_app/immutable/assets/loop-2-bfb15240.png";
+const loop3 = "/my-svelte/_app/immutable/assets/loop-3-c47c9b0b.png";
+const loop4 = "/my-svelte/_app/immutable/assets/loop-4-6c5f0362.png";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div><h1>Game Jam Projects</h1>
 
@@ -37,4 +37,4 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 
 export { Page as default };
-//# sourceMappingURL=_page.svelte-48a75164.js.map
+//# sourceMappingURL=_page.svelte-380f8dab.js.map

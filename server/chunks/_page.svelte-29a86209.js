@@ -1,6 +1,6 @@
 import { c as create_ssr_component, d as add_attribute } from './index-5c0598d4.js';
 
-const profile = "/_app/immutable/assets/profile-fb411776.jpg";
+const profile = "/my-svelte/_app/immutable/assets/profile-fb411776.jpg";
 const css = {
   code: ".text.svelte-1dphote{display:inline-block;width:70%;height:20rem}.profile.svelte-1dphote{display:inline-block;float:right;width:20%;height:20rem;text-align:center;overflow:hidden}.profile-img.svelte-1dphote{width:100%;height:auto}p.svelte-1dphote{font-size:120%}",
   map: null
@@ -27,4 +27,4 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 
 export { Page as default };
-//# sourceMappingURL=_page.svelte-2d35c3ed.js.map
+//# sourceMappingURL=_page.svelte-29a86209.js.map
