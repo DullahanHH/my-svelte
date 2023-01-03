@@ -7,14 +7,15 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
 		<link href="/my-svelte/_app/immutable/assets/_layout-682de399.css" rel="stylesheet">
-		<link rel="modulepreload" href="/my-svelte/_app/immutable/start-78cd4de0.js">
-		<link rel="modulepreload" href="/my-svelte/_app/immutable/chunks/index-4ea82ed6.js">
-		<link rel="modulepreload" href="/my-svelte/_app/immutable/chunks/singletons-49de6a6d.js">
-		<link rel="modulepreload" href="/my-svelte/_app/immutable/chunks/paths-b4419565.js">
-		<link rel="modulepreload" href="/my-svelte/_app/immutable/components/pages/_layout.svelte-4dfe7f01.js">
+		<link href="/my-svelte/_app/immutable/assets/ProjectCard-3f00cac3.css" rel="stylesheet">
+		<link rel="modulepreload" href="/my-svelte/_app/immutable/start-18adf094.js">
+		<link rel="modulepreload" href="/my-svelte/_app/immutable/chunks/paths-9d860494.js">
+		<link rel="modulepreload" href="/my-svelte/_app/immutable/chunks/singletons-4c9f8b3e.js">
+		<link rel="modulepreload" href="/my-svelte/_app/immutable/components/pages/_layout.svelte-39bc3c0a.js">
 		<link rel="modulepreload" href="/my-svelte/_app/immutable/modules/pages/_layout.js-9cbb603b.js">
 		<link rel="modulepreload" href="/my-svelte/_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="/my-svelte/_app/immutable/components/pages/ceotr/_page.svelte-771a4c7c.js">
+		<link rel="modulepreload" href="/my-svelte/_app/immutable/components/pages/ceotr/_page.svelte-6cbf152a.js">
+		<link rel="modulepreload" href="/my-svelte/_app/immutable/chunks/ProjectCard-6d5129a9.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -28,59 +29,52 @@
 
 </nav>
 
+<div><h1>CEOTR Projects</h1>
+
+    <div class="container svelte-sk5du9"><h2>Glider Website (https://dev.ceotr.ca/gliders)</h2>
+
+
+    <div class="image-container svelte-sk5du9"><div class="btn svelte-sk5du9"><button class="svelte-sk5du9"><i class="arrow left svelte-sk5du9"></i></button></div>
+        <img class="image svelte-sk5du9" src="/my-svelte/imgs/ceotr/gliders.png" alt="image preview">
+        <div class="btn svelte-sk5du9"><button class="svelte-sk5du9"><i class="arrow right svelte-sk5du9"></i></button></div></div>
+
+
+    <p>The Glider Website is built by Svelte-kit and focus on visualizing and summarizing the data collected from gliders and displaying them on the map and the table. The main page comprises three parts: map, filter, and table. The map is a Leaflet component. It can show each mission's track and be distinguished by different colors. When the user hovers over the track,  the track will be highlighted and show summarized information. The table is sortable and shows detailed information. On the right side of the table, the eye button can control the show/hide for each track shown on the map, and the eye button on the table's header can simply show/hide all the tracks. The table is sorted by mission number by default, and the mission number is clickable. By clicking the mission number, the user will be directed to the individual mission page, which shows more detail. The filter bar can filter out the missions that the user wants. Select a tag (e.g. ID) and enter detail (e.g. ID that contains 44), and the filter option will display as a bubble. The map and table will reflect the changes by the filter's option.</p>
+</div>
+
+    <div class="container svelte-sk5du9"><h2>C6 to CSV Converter (http://c6.ceotr.ca/)</h2>
+
+
+    <div class="image-container svelte-sk5du9"><div class="btn svelte-sk5du9"><button class="svelte-sk5du9"><i class="arrow left svelte-sk5du9"></i></button></div>
+        <img class="image svelte-sk5du9" src="/my-svelte/imgs/ceotr/c6.png" alt="image preview">
+        <div class="btn svelte-sk5du9"><button class="svelte-sk5du9"><i class="arrow right svelte-sk5du9"></i></button></div></div>
+
+
+    <p>The C6 to CSV converter website is built by Flask, and the function is implemented by Python. The website can convert the C6 file (a file type output by lab instrument) to a CSV file. Include the technic like auto zip/unzip, table reformation, batch download, data sorting, file upload, etc.</p>
+</div>
+
+    <div class="container svelte-sk5du9"><h2>MAPEL Website (http://dev.mapel.ceotr.ca/)</h2>
+
+
+    <div class="image-container svelte-sk5du9"><div class="btn svelte-sk5du9"><button class="svelte-sk5du9"><i class="arrow left svelte-sk5du9"></i></button></div>
+        <img class="image svelte-sk5du9" src="/my-svelte/imgs/ceotr/web.png" alt="image preview">
+        <div class="btn svelte-sk5du9"><button class="svelte-sk5du9"><i class="arrow right svelte-sk5du9"></i></button></div></div>
+
+
+    <p>The MAPEL website is built by WordPress. It is a blog website for the MAPEL group to post news and research articles and introduce their laboratory.</p>
+</div></div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		<script type="module" data-sveltekit-hydrate="bnanbe">
-			import { start } from "/my-svelte/_app/immutable/start-78cd4de0.js";
+		<script type="module" data-sveltekit-hydrate="18cv5i7">
+			import { start } from "/my-svelte/_app/immutable/start-18adf094.js";
 
 			start({
 				env: {},
 				paths: {"base":"/my-svelte","assets":"/my-svelte"},
-				target: document.querySelector('[data-sveltekit-hydrate="bnanbe"]').parentNode,
-				version: "1672676810601",
+				target: document.querySelector('[data-sveltekit-hydrate="18cv5i7"]').parentNode,
+				version: "1672713839197",
 				hydrate: {
 					node_ids: [0, 3],
 					data: [null,null],
