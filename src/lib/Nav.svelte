@@ -1,11 +1,15 @@
+<script>
+    import { base } from "$app/paths";
+</script>
+
 <nav>
 
     <ul>
-        <li><a href="/">About Me</a></li>
-        <li><a href="/personal">Personal Projects</a></li>
-        <li><a href="/ceotr">CEOTR Projects</a></li>
-        <li><a href="/gamejam">Game Jam Projects</a></li>
-        <li><a href="/other">Other Projects</a></li>
+        <li><a href="{base}/">About Me</a></li>
+        <li><a href="{base}/personal">Personal Projects</a></li>
+        <li><a href="{base}/ceotr">CEOTR Projects</a></li>
+        <li><a href="{base}/gamejam">Game Jam Projects</a></li>
+        <li><a href="{base}/other">Other Projects</a></li>
     </ul>
 
 </nav>

@@ -1,14 +1,16 @@
 <script>
+    import { base } from "$app/paths";
+
     import ProjectCard from "$lib/ProjectCard.svelte";
 
-    import space from "$lib/assets/space.png";
-    import space1 from "$lib/assets/space-1.png";
-    import space2 from "$lib/assets/space-2.png";
-    import space3 from "$lib/assets/space-3.png";
-    import space4 from "$lib/assets/space-4.png";
+    let space =  base + "/imgs/personal/space.png";
+    let space1 =  base + "/imgs/personal/space-1.png";
+    let space2 =  base + "/imgs/personal/space-2.png";
+    let space3 =  base + "/imgs/personal/space-3.png";
+    let space4 =  base + "/imgs/personal/space-4.png";
 
-    import portfolio from "$lib/assets/this.png";
-    import portfolio1 from "$lib/assets/this-1.png";
+    let portfolio =  base + "/imgs/personal/this.png";
+    let portfolio1 =  base + "/imgs/personal/this-1.png";
 
 </script>
 

@@ -1,16 +1,23 @@
 <script>
+    import { base } from "$app/paths";
+
     import ProjectCard from "$lib/ProjectCard.svelte";
 
-    import sheep from "$lib/assets/sheep.png";
-    import sheep1 from "$lib/assets/sheep-1.png";
-    import sheep2 from "$lib/assets/sheep-2.png";
-    import sheep3 from "$lib/assets/sheep-3.png";
+    let sheep = base + "/imgs/gamejam/sheep.png";
+    let sheep1 = base + "/imgs/gamejam/sheep-1.png";
+    let sheep2 = base + "/imgs/gamejam/sheep-2.png";
+    let sheep3 = base + "/imgs/gamejam/sheep-3.png";
 
-    import loop from "$lib/assets/loop.png";
-    import loop1 from "$lib/assets/loop-1.png";
-    import loop2 from "$lib/assets/loop-2.png";
-    import loop3 from "$lib/assets/loop-3.png";
-    import loop4 from "$lib/assets/loop-4.png";
+    let loop = base + "/imgs/gamejam/loop.png";
+    let loop1 = base + "/imgs/gamejam/loop-1.png";
+    let loop2 = base + "/imgs/gamejam/loop-2.png";
+    let loop3 = base + "/imgs/gamejam/loop-3.png";
+    let loop4 = base + "/imgs/gamejam/loop-4.png";
+
+    let root = base + "/imgs/gamejam/root.jpg";
+    let root1 = base + "/imgs/gamejam/root-1.png";
+    let root2 = base + "/imgs/gamejam/root-2.jpg";
+    let root3 = base + "/imgs/gamejam/root-3.png";
 
 </script>
 
@@ -27,6 +34,12 @@
             title="Newbies Jam (https://cloudrendering.unity.cn/share/cdce2cff92ebd9ae)"
             imgSet={[loop,loop1,loop2,loop3,loop4]}
             description="'One Way Out', a 2D game built by Unity. The Newbies Jam is one week event held by Unity China, and the topic is 'Loop.' We form a group of 3 (3 programmers). In the programmer's role, I worked on the following parts: UI programming, audio controller, particle design, art design, audio design,  UI design, etc. Compared with other games, the player no longer controls the main character but controls a circular spaceship to rotate left and right. Players can bounce on the platform, and they're three different platforms: the gray platform does nothing but slightly decrease the elastic energy, the green platform will dramatically increase the elastic energy, and the red platform will decrease the elastic energy. When the player collects all three gears left on the map, the escape gate at the start point will open."
+    />
+
+    <ProjectCard
+            title="Global Game Jam (https://globalgamejam.org/2023/games/roots-returning-ordeal-squares-4)"
+            imgSet={[root,root1,root2,root3]}
+            description="'R.O.O.T.S: Returning Ordeal Of The Squares', is a 2D top-down puzzle game built by unity. The theme of this Global Game Jam is 'root'. Our team consisted of 6 people (3 programmers, 1 artist, 1 level designer, and 1 narrative designer). In my role as a programmer, I implemented player and enemy movement and behavior logic, added interaction logic to props, and designed and implemented boss battles. Additionally, I was involved in most of the art design and audio design. This game tells the story of a Byte (the player) who, upon learning that his world is about to be destroyed by the Demon King of Roots, ascends the Tower of Bytes and obtains the Square Crown to save the world. In total, it consists of 3 chapters and 8 levels that progressively increase in difficulty. The core of the game is to increase or decrease your own bytes (e.g. square or open root) in order to reach the endpoint and match the bytes required for the endpoint."
     />
 
 </div>

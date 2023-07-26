@@ -1,12 +1,12 @@
 <script>
-    import profile from "$lib/assets/profile.jpg"
+    import { base } from "$app/paths";
 </script>
 
 <div>
     <h1>About Me</h1>
     <div class="text">
         <p>
-            My name is Jianchun Zhou and I am currently studying in Dalhousie as a third year student in the Department
+            My name is Jianchun Zhou and I am currently studying in Dalhousie as a fourth-year student in the Department
             of Computer Science.
         </p>
         <p>
@@ -24,7 +24,7 @@
 
     </div>
     <div class="profile">
-        <img class="profile-img" src="{profile}" alt="profile img"/>
+        <img class="profile-img" src="{base}/imgs/about/profile.jpg" alt="profile img"/>
     </div>
 
 </div>

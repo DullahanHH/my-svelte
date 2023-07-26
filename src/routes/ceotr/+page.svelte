@@ -1,19 +1,21 @@
 <script>
+    import { base } from "$app/paths";
+
     import ProjectCard from "$lib/ProjectCard.svelte";
 
-    import gliders from "$lib/assets/gliders.png";
-    import gliders1 from "$lib/assets/gliders-1.png";
-    import gliders2 from "$lib/assets/gliders-2.png";
-    import gliders3 from "$lib/assets/gliders-3.png";
-    import gliders4 from "$lib/assets/gliders-4.png";
+    let gliders = base + "/imgs/ceotr/gliders.png";
+    let gliders1 = base + "/imgs/ceotr/gliders-1.png";
+    let gliders2 = base + "/imgs/ceotr/gliders-2.png";
+    let gliders3 = base + "/imgs/ceotr/gliders-3.png";
+    let gliders4 = base + "/imgs/ceotr/gliders-4.png";
 
-    import c6 from "$lib/assets/c6.png";
-    import c61 from "$lib/assets/c6-1.png";
+    let c6 = base + "/imgs/ceotr/c6.png";
+    let c61 = base + "/imgs/ceotr/c6-1.png";
 
-    import web from "$lib/assets/web.png";
-    import web1 from "$lib/assets/web-1.png";
-    import web2 from "$lib/assets/web-2.png";
-    import web3 from "$lib/assets/web-3.png";
+    let web = base + "/imgs/ceotr/web.png";
+    let web1 = base + "/imgs/ceotr/web-1.png";
+    let web2 = base + "/imgs/ceotr/web-2.png";
+    let web3 = base + "/imgs/ceotr/web-3.png";
 
 </script>
 

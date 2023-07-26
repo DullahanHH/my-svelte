@@ -1,12 +1,13 @@
 <script>
+    import { base } from "$app/paths";
+
     import ProjectCard from "$lib/ProjectCard.svelte";
 
-    import fl from "$lib/assets/fl.png";
+    let fl = base + "/imgs/other/fl.png";
 
-    import pixel from "$lib/assets/pixel.png";
-    import pixel1 from "$lib/assets/pixel-1.png";
-    import pixel2 from "$lib/assets/pixel-2.png";
-    import pixel3 from "$lib/assets/pixel-3.png";
+    let pixel = base + "/imgs/other/pixel.png";
+    let pixel1 = base + "/imgs/other/pixel-1.png";
+    let pixel2 = base + "/imgs/other/pixel-2.png";
 
 </script>
 
@@ -21,7 +22,7 @@
 
     <ProjectCard
             title="Pixel Art (Aseprite)"
-            imgSet={[pixel,pixel1,pixel2,pixel3]}
+            imgSet={[pixel,pixel1,pixel2]}
             description="Pixel art for practice and game development. Include animation and other technics."
     />
 
