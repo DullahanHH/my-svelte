@@ -18,6 +18,12 @@
     <h1>Personal Projects</h1>
 
     <ProjectCard
+            title="Vertical Tower Defence"
+            imgSet={[]}
+            description=""
+    />
+
+    <ProjectCard
             title="Space Fighter"
             imgSet={[space,space1,space2,space3,space4]}
             description="A 2D pixel space fighter built by Unity. The player needs to avoid damage by enemies and protect the deck. Whenever the player or deck takes damage, the entire health will drop, and when the health goes down to 0, the game is over. The player can purchase and gear up powerful items in the store. The coin can be dropped by the enemy. The stronger the enemy is, the more coin will be dropped. The boss will show up when the timer on the left goes down to zero. It will be more challenging, but it is a chance to gain more coins."
