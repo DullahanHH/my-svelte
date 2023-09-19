@@ -50,7 +50,7 @@
 
 <style>
     .container {
-        background: lightgray;
+        background: #f0f0f0;
         border-radius: 25px;
         padding: 1rem;
         margin: 2rem 0;
