@@ -3,6 +3,12 @@
 
     import ProjectCard from "$lib/ProjectCard.svelte";
 
+    let td0 =  base + "/imgs/personal/td0.png";
+    let td1 =  base + "/imgs/personal/td1.png";
+
+    let s0 =  base + "/imgs/personal/survivor0.png";
+    let s1 =  base + "/imgs/personal/survivor1.png";
+
     let space =  base + "/imgs/personal/space.png";
     let space1 =  base + "/imgs/personal/space-1.png";
     let space2 =  base + "/imgs/personal/space-2.png";
@@ -19,8 +25,14 @@
 
     <ProjectCard
             title="Vertical Tower Defence"
-            imgSet={[]}
-            description=""
+            imgSet={[td0,td1]}
+            description="A 3D tower defence game built by Unity. "
+    />
+
+    <ProjectCard
+            title="Survivor Game"
+            imgSet={[s0,s1]}
+            description="A 3D survivor game built by Unity."
     />
 
     <ProjectCard
