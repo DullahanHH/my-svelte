@@ -3,23 +3,27 @@
 </script>
 
 <div>
-    <h1>About Me</h1>
+    <h1>About Me / 自我介绍</h1>
     <div class="text">
         <p>
             My name is Jianchun Zhou and I am currently studying in Dalhousie as a fourth-year student in the Department
-            of Computer Science.
+            of Computer Science. From July 2021 to December 2022, I participated in the Co-op project as a software
+            developer, work in the data department of CEOTR (Coastal Environmental Observation Technology and Research).
         </p>
         <p>
-            From July 2021 to December 2022, I participated in the Co-op project and took the position of software
-            development in the data department of CEOTR (Coastal Environmental Observation Technology and Research).
-            During my tenure, I participated in the development of several website projects and gradually became
-            familiar with the development mode in the workplace.
+            I am also a gamer, I enjoy the process of playing games, and at the same time I learn and think from it.
+            I also develop some mini games on spare time, and participate in Game Jams.
+            These experiences have gradually broadened my views and allowed me to study games from a developer's point of view,
+            which led me to a deeper understanding.
+        </p>
+
+        <p>
+            Hi！我的名字是周洊醇，目前就读于加拿大哈利法克斯的达尔豪斯大学，是一名大四计算机科学系的学生。
+            在校期间，我曾在CEOTR参加过Co-op实习项目，负责网页前端开发与维护。也曾担任达尔豪斯游戏设计协会主席。
         </p>
         <p>
-            In my spare time, I'm also interested in video games. It's not just about playing games, it's more about
-            developing games. In game development, I know a thing or two about programming, art, and sound effects. I
-            have done many demos of 2D games and participated in many Game Jams. With the help of demos and Game Jam, I
-            continue to accumulate experience in game development and the ability to work in a team.
+            同时，我也是一名游戏爱好者，我享受玩游戏的过程，同时也会从中学习与思考。平日里我也会做一些小游戏，积极参与Game Jam等活动。
+            这些经历逐渐拓宽了我的视野，使我能够以开发者的角度去研究游戏，并让我对游戏有了更深入的了解。
         </p>
 
     </div>

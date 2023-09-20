@@ -1,7 +1,8 @@
 <script>
     export let title;
     export let imgSet;
-    export let description;
+    export let textEN;
+    export let textCN;
 
     let imgNum = 0;
     let selectedImg = imgSet[imgNum];
@@ -45,7 +46,8 @@
     </div>
 
 
-    <p>{description}</p>
+    <p class="text">{textEN}</p>
+    <p class="text">{textCN}</p>
 </div>
 
 <style>
@@ -103,5 +105,10 @@
     .right {
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
+    }
+
+    .text {
+        margin: 2rem;
+        text-align: center;
     }
 </style>
