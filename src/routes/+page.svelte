@@ -6,8 +6,8 @@
     <h1>About Me / 自我介绍</h1>
     <div class="text">
         <p>
-            My name is Jianchun Zhou and I am currently studying in Dalhousie as a fourth-year student in the Department
-            of Computer Science. From July 2021 to December 2022, I participated in the Co-op project as a software
+            My name is Jianchun Zhou and I am a recent Computer Science graduate from Dalhousie University.
+            From July 2021 to December 2022, I participated in the Co-op project as a software
             developer, work in the data department of CEOTR (Coastal Environmental Observation Technology and Research).
         </p>
         <p>
@@ -18,7 +18,7 @@
         </p>
 
         <p>
-            Hi！我的名字是周洊醇，目前就读于加拿大哈利法克斯的达尔豪斯大学，是一名大四计算机科学系的学生。
+            Hi！我的名字是周洊醇，是一名毕业于加拿大的达尔豪斯大学的计算机科学系的学生。
             在校期间，我曾在CEOTR参加过Co-op实习项目，负责网页前端开发与维护。也曾担任达尔豪斯游戏设计协会主席。
         </p>
         <p>
