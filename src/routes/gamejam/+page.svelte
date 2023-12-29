@@ -29,9 +29,11 @@
             imgSet={[sheep,sheep1,sheep2,sheep3]}
             textEN="'Bite Sized Justice', a 2D platform game built by Unity. The Atlantic Game Jam is 48 hours event held by Ubisoft,
                     and the topic is 'with great power comes great responsibility.' The background of the game, in brief, is the sheep (player) who wants to rescue his friends in the wolf's territory.
-                    Players need to rescue as many sheep as possible and reach the goal. As the number of rescues increases, the difficulty of the game increase."
+                    Players need to rescue as many sheep as possible and reach the goal. As the number of rescues increases, the difficulty of the game increase.
+                    This was my first time participating in a Game Jam, and although we encountered issues like Git conflicts during the process, we ultimately resolved them."
             textCN="使用Unity开发的2D横版卷轴闯关游戏。该Game Jam由哈法育碧举办，主题为'能力越大责任越大'。玩家需要尽可能多的解救小羊并到达终点。
-                    随着解救数量增加，玩家需要在保护小羊的同时营救更多的小羊，也使得躲避敌人和陷阱的难度增加。"
+                    随着解救数量增加，玩家需要在保护小羊的同时营救更多的小羊，也使得躲避敌人和陷阱的难度增加。
+                    这是我第一次参加Game Jam，尽管在过程中我们遇到了如Git冲突之类的问题，但最终问题得到了解决。"
     />
 
     <ProjectCard
