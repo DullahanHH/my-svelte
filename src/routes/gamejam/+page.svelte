@@ -19,6 +19,11 @@
     let root2 = base + "/imgs/gamejam/root-2.jpg";
     let root3 = base + "/imgs/gamejam/root-3.png";
 
+    let anxiety = base + "/imgs/gamejam/anxiety.png";
+    let anxiety1 = base + "/imgs/gamejam/anxiety1.png";
+    let anxiety2 = base + "/imgs/gamejam/anxiety2.png";
+    let anxiety3 = base + "/imgs/gamejam/anxiety3.png";
+
 </script>
 
 <div>
@@ -50,15 +55,26 @@
     />
 
     <ProjectCard
-            title="Global Game Jam (https://globalgamejam.org/2023/games/roots-returning-ordeal-squares-4)"
+            title="2023 Global Game Jam (https://dullahanhh.itch.io/roots)"
             imgSet={[root,root1,root2,root3]}
             textEN="'R.O.O.T.S: Returning Ordeal Of The Squares', is a 2D top-down puzzle game built by unity. The theme of this Global Game Jam is 'root'.
                     This game tells the story of a Byte (the player) who, upon learning that his world is about to be destroyed by the Demon King of Roots,
                     ascends the Tower of Bytes and obtains the Square Crown to save the world. In total, it consists of 3 chapters and 8 levels that progressively increase in difficulty.
                     The core of the game is to increase or decrease your own bytes (e.g. square or open root) in order to reach the endpoint and match the bytes required for the endpoint."
-            textCN="使用Unity开发的2D俯视角解密闯关游戏。该Game Jam由Global Game Jam举办，主题为'根'。
+            textCN="使用Unity开发的2D俯视角解密闯关游戏。该Game Jam由Global Game Jam举办，主题为'Root'。
                     玩家需要谨慎思考如何使用关卡中的道具增减自身的字节来进行解密。游戏整体分为三章，第一章的作用是让玩家熟悉每一个道具的使用方法和交代背景，
                     第二章会将道具结合起来，实现更困难的关卡，第三章则为Boss战。"
+    />
+
+    <ProjectCard
+            title="2024 Global Game Jam (https://cryintomato.itch.io/social-anxiety-simulator)"
+            imgSet={[anxiety,anxiety1,anxiety2,anxiety3]}
+            textEN="'Social Anxiety Simulator', is a 2D QTE game built by unity. The theme of this Global Game Jam is 'make me laugh'.
+                    The player will take on the role of a social anxiety student and avoid social awkwardness by giving the professor the right reaction at the right time.
+                    When the professor speaks the player does not react, but when the professor drinks coffee the player should react correctly."
+            textCN="使用Unity开发的2D QTE游戏。该Game Jam由Global Game Jam举办，主题为'Make me laugh'。
+                    玩家将扮演一个社恐学生，在恰当的时机给教授正确的反应来避免社交尴尬。
+                    当教授讲话时玩家不做任何反应，但当教授喝咖啡时，玩家应该做出正确的反应。"
     />
 
 </div>
